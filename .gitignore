@@ -1,0 +1,5 @@
+# Project exclude paths
+/vl-internship-master/.gradle/
+/vl-internship-master/build/
+/vl-internship-master/build/classes/java/main/
+/vl-internship-master/build/classes/java/test/

@@ -1,0 +1,29 @@
+POST http://localhost:8080/receipt
+Content-Type: application/json
+
+{
+  "productOrders": [
+    {
+      "name": "Cheese",
+      "quantity": 3
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/receipt
+Content-Type: application/json
+
+{
+  "productOrders": [
+    {
+      "name": "Cheese",
+      "quantity": 3
+    },
+    {
+      "name": "Bread",
+      "quantity": 3
+    }
+  ]
+}
